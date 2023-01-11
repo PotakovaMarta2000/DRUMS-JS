@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@200;500;900&family=Rubik+Vinyl&display=swap');
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+marquee{
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+span {
+    color: gold;
+}
+.drums {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 381px;
+    left: calc(50% - 300px);
+}
+.kick {
+    width: 200px;
+    height: 200px;
+    background-image: url(./img/kick.png);
+    background-position: center center ;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    z-index:3;
+    }
+.snare {
+    width: 167px;
+    height: 96px;
+    background-image: url(./img/snare.png);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 196px;
+    right: 93px;
+}
+.hi-hat {
+    width: 180px;
+    height: 410px;
+    background-image: url(./img/Hi-Hat_right.png);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    right: 49px;
+    right: 46px;
+}
+.tom1 {
+    width: 119px;
+    height: 90px;
+    background-image: url(./img/tom_right.png);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 114px;
+    right: 182px;
+    transform: rotate(331deg);
+    width: 108px;
+    z-index: -1;
+} 
+.tom2 {
+    height: 150px;
+    background-image: url(./img/tom_left.png);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 126px;
+    transform: rotate(15deg);
+    width: 200px;
+} 
+.tom3 {
+    width: 224px;
+    height: 233px;
+    background-image: url(./img/tom3_prev_ui.png);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 169px;
+    left: 52px;
+}
+.crash {
+    width: 170px;
+    height: 412px;
+    border-radius: 20px 20px 0 0;
+    background-image: url(./img/Hi-Hat_left.png);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: -46px;
+    left: 72px;
+    transform: rotateY(213deg);
+    z-index: -1;
+}
+.hit {
+    transform: scale(2);
+}
+audio{
+    position: absolute;
+    bottom: -50px;
+    left: 160px;
+}
+
